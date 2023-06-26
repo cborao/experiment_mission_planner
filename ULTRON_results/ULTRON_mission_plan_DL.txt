@@ -1,0 +1,1008 @@
+--------------------------------------------------------------------------------------
+MISSION PLAN
+--------------------------------------------------------------------------------------
+
+Generation date: 25-Jun-2023 10:19:54
+
+--------------------------------------------------------------------------------------
+Mission Parameters: 
+
+	UTC Start Time: 19-Feb-2024 08:00:00
+	UTC End Time: 21-Feb-2024 08:00:00
+
+Experiment Parameters: 
+
+	Estimated 𝜏_tc/tm: 4 ms
+	T_on: 2000 ms
+	T_off: 1000 ms
+	T_idle: 10 minutes
+
+Experiment link type: Downlink
+
+--------------------------------------------------------------------------------------
+
+[T+00:00:00.000] 19-Feb-2024 08:00:00.000 MISSION START
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 1 %
+%%%%%%%%%%%%%%%%%%
+
+[T+00:41:59.988] 19-Feb-2024 08:41:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+00:41:59.996] 19-Feb-2024 08:41:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+00:42:00.000] 19-Feb-2024 08:42:00.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=-20.494° and elevation=68.987°
+[T+00:42:00.000] 19-Feb-2024 08:42:00.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+00:46:59.996] 19-Feb-2024 08:46:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+00:47:00.000] 19-Feb-2024 08:47:00.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+[T+00:43:14.996] 19-Feb-2024 08:43:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+00:43:15.000] 19-Feb-2024 08:43:15.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=100.704° and elevation=70.018°
+[T+00:43:15.000] 19-Feb-2024 08:43:15.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 120 sec
+
+[T+00:45:14.996] 19-Feb-2024 08:45:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+00:45:15.000] 19-Feb-2024 08:45:15.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+[T+00:45:15.000] 19-Feb-2024 08:45:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+01:08:29.988] 19-Feb-2024 09:08:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+01:08:29.996] 19-Feb-2024 09:08:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+01:08:30.000] 19-Feb-2024 09:08:30.000	GS OPERATOR: Point "AWS Hawái" gs gimbal to azimuth=-164.867° and elevation=69.878°
+[T+01:08:30.000] 19-Feb-2024 09:08:30.000	GS OPERATOR: Start Rx in "AWS Hawái Rx" ground station
+											> Downlink started between "AWS Hawái Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+01:13:29.996] 19-Feb-2024 09:13:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+01:13:30.000] 19-Feb-2024 09:13:30.000	GS OPERATOR: End Rx in "AWS Hawái" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 2 %
+%%%%%%%%%%%%%%%%%%
+
+[T+01:13:30.000] 19-Feb-2024 09:13:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+01:53:59.988] 19-Feb-2024 09:53:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+01:53:59.996] 19-Feb-2024 09:53:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+01:54:00.000] 19-Feb-2024 09:54:00.000	GS OPERATOR: Point "AWS Cape Town" gs gimbal to azimuth=-33.641° and elevation=68.725°
+[T+01:54:00.000] 19-Feb-2024 09:54:00.000	GS OPERATOR: Start Rx in "AWS Cape Town Rx" ground station
+											> Downlink started between "AWS Cape Town Rx" and "ULTRON Tx"
+											> Window duration: 210 sec
+
+[T+01:57:29.996] 19-Feb-2024 09:57:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+01:57:30.000] 19-Feb-2024 09:57:30.000	GS OPERATOR: End Rx in "AWS Cape Town" ground station
+
+[T+01:57:30.000] 19-Feb-2024 09:57:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+02:15:59.988] 19-Feb-2024 10:15:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+02:15:59.996] 19-Feb-2024 10:15:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+02:16:00.000] 19-Feb-2024 10:16:00.000	GS OPERATOR: Point "TAS Tres Cantos" gs gimbal to azimuth=-65.617° and elevation=37.647°
+[T+02:16:00.000] 19-Feb-2024 10:16:00.000	GS OPERATOR: Start Rx in "TAS Tres Cantos Rx" ground station
+											> Downlink started between "TAS Tres Cantos Rx" and "ULTRON Tx"
+											> Window duration: 30 sec
+
+[T+02:16:29.996] 19-Feb-2024 10:16:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+02:16:30.000] 19-Feb-2024 10:16:30.000	GS OPERATOR: End Rx in "TAS Tres Cantos" ground station
+
+[T+02:16:59.996] 19-Feb-2024 10:16:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+02:17:00.000] 19-Feb-2024 10:17:00.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=-5.329° and elevation=69.372°
+[T+02:17:00.000] 19-Feb-2024 10:17:00.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+02:22:29.996] 19-Feb-2024 10:22:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+02:22:30.000] 19-Feb-2024 10:22:30.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+[T+02:22:30.000] 19-Feb-2024 10:22:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+03:01:59.988] 19-Feb-2024 11:01:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+03:01:59.996] 19-Feb-2024 11:01:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+03:02:00.000] 19-Feb-2024 11:02:00.000	GS OPERATOR: Point "AWS Sydney" gs gimbal to azimuth=105.344° and elevation=69.344°
+[T+03:02:00.000] 19-Feb-2024 11:02:00.000	GS OPERATOR: Start Rx in "AWS Sydney Rx" ground station
+											> Downlink started between "AWS Sydney Rx" and "ULTRON Tx"
+											> Window duration: 195 sec
+
+[T+03:05:14.996] 19-Feb-2024 11:05:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+03:05:15.000] 19-Feb-2024 11:05:15.000	GS OPERATOR: End Rx in "AWS Sydney" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 3 %
+%%%%%%%%%%%%%%%%%%
+
+[T+03:05:15.000] 19-Feb-2024 11:05:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+04:38:44.988] 19-Feb-2024 12:38:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+04:38:44.996] 19-Feb-2024 12:38:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+04:38:45.000] 19-Feb-2024 12:38:45.000	GS OPERATOR: Point "AWS Sydney" gs gimbal to azimuth=-107.199° and elevation=69.802°
+[T+04:38:45.000] 19-Feb-2024 12:38:45.000	GS OPERATOR: Start Rx in "AWS Sydney Rx" ground station
+											> Downlink started between "AWS Sydney Rx" and "ULTRON Tx"
+											> Window duration: 75 sec
+
+[T+04:39:59.996] 19-Feb-2024 12:39:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+04:40:00.000] 19-Feb-2024 12:40:00.000	GS OPERATOR: End Rx in "AWS Sydney" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 4 %
+%%%%%%%%%%%%%%%%%%
+
+[T+04:40:00.000] 19-Feb-2024 12:40:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+05:54:44.988] 19-Feb-2024 13:54:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+05:54:44.996] 19-Feb-2024 13:54:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+05:54:45.000] 19-Feb-2024 13:54:45.000	GS OPERATOR: Point "AWS Seoul" gs gimbal to azimuth=162.243° and elevation=67.819°
+[T+05:54:45.000] 19-Feb-2024 13:54:45.000	GS OPERATOR: Start Rx in "AWS Seoul Rx" ground station
+											> Downlink started between "AWS Seoul Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+06:00:14.996] 19-Feb-2024 14:00:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+06:00:15.000] 19-Feb-2024 14:00:15.000	GS OPERATOR: End Rx in "AWS Seoul" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 5 %
+%%%%%%%%%%%%%%%%%%
+
+[T+06:00:15.000] 19-Feb-2024 14:00:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+06:39:59.988] 19-Feb-2024 14:39:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+06:39:59.996] 19-Feb-2024 14:39:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+06:40:00.000] 19-Feb-2024 14:40:00.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=51.098° and elevation=68.395°
+[T+06:40:00.000] 19-Feb-2024 14:40:00.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 240 sec
+
+[T+06:43:59.996] 19-Feb-2024 14:43:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+06:44:00.000] 19-Feb-2024 14:44:00.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+[T+06:44:00.000] 19-Feb-2024 14:44:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+07:04:14.988] 19-Feb-2024 15:04:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+07:04:14.996] 19-Feb-2024 15:04:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+07:04:15.000] 19-Feb-2024 15:04:15.000	GS OPERATOR: Point "AWS Ohio" gs gimbal to azimuth=21.127° and elevation=68.767°
+[T+07:04:15.000] 19-Feb-2024 15:04:15.000	GS OPERATOR: Start Rx in "AWS Ohio Rx" ground station
+											> Downlink started between "AWS Ohio Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+07:09:44.996] 19-Feb-2024 15:09:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+07:09:45.000] 19-Feb-2024 15:09:45.000	GS OPERATOR: End Rx in "AWS Ohio" ground station
+
+[T+07:09:45.000] 19-Feb-2024 15:09:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+07:41:29.988] 19-Feb-2024 15:41:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+07:41:29.996] 19-Feb-2024 15:41:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+07:41:30.000] 19-Feb-2024 15:41:30.000	GS OPERATOR: Point "AWS Singapore" gs gimbal to azimuth=-150.292° and elevation=69.530°
+[T+07:41:30.000] 19-Feb-2024 15:41:30.000	GS OPERATOR: Start Rx in "AWS Singapore Rx" ground station
+											> Downlink started between "AWS Singapore Rx" and "ULTRON Tx"
+											> Window duration: 255 sec
+
+[T+07:45:44.996] 19-Feb-2024 15:45:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+07:45:45.000] 19-Feb-2024 15:45:45.000	GS OPERATOR: End Rx in "AWS Singapore" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 6 %
+%%%%%%%%%%%%%%%%%%
+
+[T+07:45:45.000] 19-Feb-2024 15:45:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+08:15:29.988] 19-Feb-2024 16:15:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+08:15:29.996] 19-Feb-2024 16:15:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+08:15:30.000] 19-Feb-2024 16:15:30.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=-11.897° and elevation=69.042°
+[T+08:15:30.000] 19-Feb-2024 16:15:30.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 285 sec
+
+[T+08:20:14.996] 19-Feb-2024 16:20:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+08:20:15.000] 19-Feb-2024 16:20:15.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+[T+08:20:15.000] 19-Feb-2024 16:20:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+08:44:14.988] 19-Feb-2024 16:44:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+08:44:14.996] 19-Feb-2024 16:44:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+08:44:15.000] 19-Feb-2024 16:44:15.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=84.780° and elevation=69.532°
+[T+08:44:15.000] 19-Feb-2024 16:44:15.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 165 sec
+
+[T+08:46:59.996] 19-Feb-2024 16:46:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+08:47:00.000] 19-Feb-2024 16:47:00.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 7 %
+%%%%%%%%%%%%%%%%%%
+
+[T+08:47:00.000] 19-Feb-2024 16:47:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+10:19:14.988] 19-Feb-2024 18:19:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+10:19:14.996] 19-Feb-2024 18:19:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+10:19:15.000] 19-Feb-2024 18:19:15.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=-36.996° and elevation=69.014°
+[T+10:19:15.000] 19-Feb-2024 18:19:15.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 255 sec
+
+[T+10:23:29.996] 19-Feb-2024 18:23:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+10:23:30.000] 19-Feb-2024 18:23:30.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+[T+10:23:30.000] 19-Feb-2024 18:23:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+10:48:29.988] 19-Feb-2024 18:48:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+10:48:29.996] 19-Feb-2024 18:48:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+10:48:30.000] 19-Feb-2024 18:48:30.000	GS OPERATOR: Point "AWS Bahrain" gs gimbal to azimuth=154.209° and elevation=69.324°
+[T+10:48:30.000] 19-Feb-2024 18:48:30.000	GS OPERATOR: Start Rx in "AWS Bahrain Rx" ground station
+											> Downlink started between "AWS Bahrain Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+10:53:59.996] 19-Feb-2024 18:53:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+10:54:00.000] 19-Feb-2024 18:54:00.000	GS OPERATOR: End Rx in "AWS Bahrain" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 8 %
+%%%%%%%%%%%%%%%%%%
+
+[T+10:54:00.000] 19-Feb-2024 18:54:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+11:50:44.988] 19-Feb-2024 19:50:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+11:50:44.996] 19-Feb-2024 19:50:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+11:50:45.000] 19-Feb-2024 19:50:45.000	GS OPERATOR: Point "AWS Hawái" gs gimbal to azimuth=59.890° and elevation=68.574°
+[T+11:50:45.000] 19-Feb-2024 19:50:45.000	GS OPERATOR: Start Rx in "AWS Hawái Rx" ground station
+											> Downlink started between "AWS Hawái Rx" and "ULTRON Tx"
+											> Window duration: 240 sec
+
+[T+11:54:44.996] 19-Feb-2024 19:54:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+11:54:45.000] 19-Feb-2024 19:54:45.000	GS OPERATOR: End Rx in "AWS Hawái" ground station
+
+[T+11:54:45.000] 19-Feb-2024 19:54:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+12:41:14.988] 19-Feb-2024 20:41:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+12:41:14.996] 19-Feb-2024 20:41:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+12:41:15.000] 19-Feb-2024 20:41:15.000	GS OPERATOR: Point "AWS Cape Town" gs gimbal to azimuth=-179.558° and elevation=68.540°
+[T+12:41:15.000] 19-Feb-2024 20:41:15.000	GS OPERATOR: Start Rx in "AWS Cape Town Rx" ground station
+											> Downlink started between "AWS Cape Town Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+12:46:44.996] 19-Feb-2024 20:46:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+12:46:45.000] 19-Feb-2024 20:46:45.000	GS OPERATOR: End Rx in "AWS Cape Town" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 9 %
+%%%%%%%%%%%%%%%%%%
+
+[T+12:46:45.000] 19-Feb-2024 20:46:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+13:52:44.988] 19-Feb-2024 21:52:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+13:52:44.996] 19-Feb-2024 21:52:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+13:52:45.000] 19-Feb-2024 21:52:45.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=166.628° and elevation=68.798°
+[T+13:52:45.000] 19-Feb-2024 21:52:45.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 345 sec
+
+[T+13:58:29.996] 19-Feb-2024 21:58:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+13:58:30.000] 19-Feb-2024 21:58:30.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 10 %
+%%%%%%%%%%%%%%%%%%
+
+[T+13:58:30.000] 19-Feb-2024 21:58:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+15:31:14.988] 19-Feb-2024 23:31:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+15:31:14.996] 19-Feb-2024 23:31:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+15:31:15.000] 19-Feb-2024 23:31:15.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=172.391° and elevation=69.209°
+[T+15:31:15.000] 19-Feb-2024 23:31:15.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+15:36:44.996] 19-Feb-2024 23:36:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+15:36:45.000] 19-Feb-2024 23:36:45.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 11 %
+%%%%%%%%%%%%%%%%%%
+
+[T+15:36:45.000] 19-Feb-2024 23:36:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+16:25:14.988] 20-Feb-2024 00:25:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+16:25:14.996] 20-Feb-2024 00:25:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+16:25:15.000] 20-Feb-2024 00:25:15.000	GS OPERATOR: Point "AWS Sydney" gs gimbal to azimuth=12.623° and elevation=68.765°
+[T+16:25:15.000] 20-Feb-2024 00:25:15.000	GS OPERATOR: Start Rx in "AWS Sydney Rx" ground station
+											> Downlink started between "AWS Sydney Rx" and "ULTRON Tx"
+											> Window duration: 345 sec
+
+[T+16:30:59.996] 20-Feb-2024 00:30:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+16:31:00.000] 20-Feb-2024 00:31:00.000	GS OPERATOR: End Rx in "AWS Sydney" ground station
+
+[T+16:31:00.000] 20-Feb-2024 00:31:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+16:45:14.988] 20-Feb-2024 00:45:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+16:45:14.996] 20-Feb-2024 00:45:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+16:45:15.000] 20-Feb-2024 00:45:15.000	GS OPERATOR: Point "AWS Seoul" gs gimbal to azimuth=47.293° and elevation=69.540°
+[T+16:45:15.000] 20-Feb-2024 00:45:15.000	GS OPERATOR: Start Rx in "AWS Seoul Rx" ground station
+											> Downlink started between "AWS Seoul Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+16:50:14.996] 20-Feb-2024 00:50:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+16:50:15.000] 20-Feb-2024 00:50:15.000	GS OPERATOR: End Rx in "AWS Seoul" ground station
+
+[T+16:50:15.000] 20-Feb-2024 00:50:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+17:37:44.988] 20-Feb-2024 01:37:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+17:37:44.996] 20-Feb-2024 01:37:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+17:37:45.000] 20-Feb-2024 01:37:45.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=134.635° and elevation=69.255°
+[T+17:37:45.000] 20-Feb-2024 01:37:45.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 315 sec
+
+[T+17:42:59.996] 20-Feb-2024 01:42:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+17:43:00.000] 20-Feb-2024 01:43:00.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 12 %
+%%%%%%%%%%%%%%%%%%
+
+[T+17:43:00.000] 20-Feb-2024 01:43:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+19:15:14.988] 20-Feb-2024 03:15:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+19:15:14.996] 20-Feb-2024 03:15:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+19:15:15.000] 20-Feb-2024 03:15:15.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=-117.137° and elevation=69.037°
+[T+19:15:15.000] 20-Feb-2024 03:15:15.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 150 sec
+
+[T+19:17:44.996] 20-Feb-2024 03:17:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+19:17:45.000] 20-Feb-2024 03:17:45.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 13 %
+%%%%%%%%%%%%%%%%%%
+
+[T+19:17:45.000] 20-Feb-2024 03:17:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+19:49:14.988] 20-Feb-2024 03:49:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+19:49:14.996] 20-Feb-2024 03:49:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+19:49:15.000] 20-Feb-2024 03:49:15.000	GS OPERATOR: Point "AWS Singapore" gs gimbal to azimuth=-46.980° and elevation=69.942°
+[T+19:49:15.000] 20-Feb-2024 03:49:15.000	GS OPERATOR: Start Rx in "AWS Singapore Rx" ground station
+											> Downlink started between "AWS Singapore Rx" and "ULTRON Tx"
+											> Window duration: 180 sec
+
+[T+19:52:14.996] 20-Feb-2024 03:52:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+19:52:15.000] 20-Feb-2024 03:52:15.000	GS OPERATOR: End Rx in "AWS Singapore" ground station
+
+[T+19:52:15.000] 20-Feb-2024 03:52:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+20:25:29.988] 20-Feb-2024 04:25:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+20:25:29.996] 20-Feb-2024 04:25:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+20:25:30.000] 20-Feb-2024 04:25:30.000	GS OPERATOR: Point "AWS Ohio" gs gimbal to azimuth=-173.189° and elevation=68.646°
+[T+20:25:30.000] 20-Feb-2024 04:25:30.000	GS OPERATOR: Start Rx in "AWS Ohio Rx" ground station
+											> Downlink started between "AWS Ohio Rx" and "ULTRON Tx"
+											> Window duration: 315 sec
+
+[T+20:30:44.996] 20-Feb-2024 04:30:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+20:30:45.000] 20-Feb-2024 04:30:45.000	GS OPERATOR: End Rx in "AWS Ohio" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 14 %
+%%%%%%%%%%%%%%%%%%
+
+[T+20:30:45.000] 20-Feb-2024 04:30:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+22:02:14.988] 20-Feb-2024 06:02:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+22:02:14.996] 20-Feb-2024 06:02:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+22:02:15.000] 20-Feb-2024 06:02:15.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=136.690° and elevation=68.939°
+[T+22:02:15.000] 20-Feb-2024 06:02:15.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 270 sec
+
+[T+22:06:44.996] 20-Feb-2024 06:06:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+22:06:45.000] 20-Feb-2024 06:06:45.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 15 %
+%%%%%%%%%%%%%%%%%%
+
+[T+22:06:45.000] 20-Feb-2024 06:06:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+23:09:29.988] 20-Feb-2024 07:09:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+23:09:29.996] 20-Feb-2024 07:09:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+23:09:30.000] 20-Feb-2024 07:09:30.000	GS OPERATOR: Point "AWS Bahrain" gs gimbal to azimuth=-43.730° and elevation=69.022°
+[T+23:09:30.000] 20-Feb-2024 07:09:30.000	GS OPERATOR: Start Rx in "AWS Bahrain Rx" ground station
+											> Downlink started between "AWS Bahrain Rx" and "ULTRON Tx"
+											> Window duration: 210 sec
+
+[T+23:12:59.996] 20-Feb-2024 07:12:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+23:13:00.000] 20-Feb-2024 07:13:00.000	GS OPERATOR: End Rx in "AWS Bahrain" ground station
+
+[T+23:18:44.996] 20-Feb-2024 07:18:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+23:18:45.000] 20-Feb-2024 07:18:45.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=53.559° and elevation=69.478°
+[T+23:18:45.000] 20-Feb-2024 07:18:45.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+23:23:44.996] 20-Feb-2024 07:23:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+23:23:45.000] 20-Feb-2024 07:23:45.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+[T+23:23:45.000] 20-Feb-2024 07:23:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+23:39:14.988] 20-Feb-2024 07:39:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+23:39:14.996] 20-Feb-2024 07:39:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+23:39:15.000] 20-Feb-2024 07:39:15.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=-131.888° and elevation=69.899°
+[T+23:39:15.000] 20-Feb-2024 07:39:15.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 105 sec
+
+[T+23:40:59.996] 20-Feb-2024 07:40:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+23:41:00.000] 20-Feb-2024 07:41:00.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 16 %
+%%%%%%%%%%%%%%%%%%
+
+[T+23:41:00.000] 20-Feb-2024 07:41:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+24:30:59.988] 20-Feb-2024 08:30:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+24:30:59.996] 20-Feb-2024 08:30:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+24:31:00.000] 20-Feb-2024 08:31:00.000	GS OPERATOR: Point "AWS Cape Town" gs gimbal to azimuth=59.749° and elevation=69.397°
+[T+24:31:00.000] 20-Feb-2024 08:31:00.000	GS OPERATOR: Start Rx in "AWS Cape Town Rx" ground station
+											> Downlink started between "AWS Cape Town Rx" and "ULTRON Tx"
+											> Window duration: 210 sec
+
+[T+24:34:29.996] 20-Feb-2024 08:34:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+24:34:30.000] 20-Feb-2024 08:34:30.000	GS OPERATOR: End Rx in "AWS Cape Town" ground station
+
+[T+24:34:30.000] 20-Feb-2024 08:34:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+24:54:59.988] 20-Feb-2024 08:54:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+24:54:59.996] 20-Feb-2024 08:54:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+24:55:00.000] 20-Feb-2024 08:55:00.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=-32.796° and elevation=69.673°
+[T+24:55:00.000] 20-Feb-2024 08:55:00.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 270 sec
+
+[T+24:59:29.996] 20-Feb-2024 08:59:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+24:59:30.000] 20-Feb-2024 08:59:30.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+[T+24:55:14.996] 20-Feb-2024 08:55:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+24:55:15.000] 20-Feb-2024 08:55:15.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=83.289° and elevation=68.773°
+[T+24:55:15.000] 20-Feb-2024 08:55:15.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 195 sec
+
+[T+24:58:29.996] 20-Feb-2024 08:58:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+24:58:30.000] 20-Feb-2024 08:58:30.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+[T+24:58:30.000] 20-Feb-2024 08:58:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+25:21:44.988] 20-Feb-2024 09:21:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+25:21:44.996] 20-Feb-2024 09:21:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+25:21:45.000] 20-Feb-2024 09:21:45.000	GS OPERATOR: Point "AWS Hawái" gs gimbal to azimuth=-146.690° and elevation=70.023°
+[T+25:21:45.000] 20-Feb-2024 09:21:45.000	GS OPERATOR: Start Rx in "AWS Hawái Rx" ground station
+											> Downlink started between "AWS Hawái Rx" and "ULTRON Tx"
+											> Window duration: 225 sec
+
+[T+25:25:29.996] 20-Feb-2024 09:25:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+25:25:30.000] 20-Feb-2024 09:25:30.000	GS OPERATOR: End Rx in "AWS Hawái" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 17 %
+%%%%%%%%%%%%%%%%%%
+
+[T+25:25:30.000] 20-Feb-2024 09:25:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+26:07:44.988] 20-Feb-2024 10:07:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+26:07:44.996] 20-Feb-2024 10:07:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+26:07:45.000] 20-Feb-2024 10:07:45.000	GS OPERATOR: Point "AWS Cape Town" gs gimbal to azimuth=-58.151° and elevation=70.090°
+[T+26:07:45.000] 20-Feb-2024 10:07:45.000	GS OPERATOR: Start Rx in "AWS Cape Town Rx" ground station
+											> Downlink started between "AWS Cape Town Rx" and "ULTRON Tx"
+											> Window duration: 60 sec
+
+[T+26:08:44.996] 20-Feb-2024 10:08:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+26:08:45.000] 20-Feb-2024 10:08:45.000	GS OPERATOR: End Rx in "AWS Cape Town" ground station
+
+[T+26:08:45.000] 20-Feb-2024 10:08:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+26:29:59.988] 20-Feb-2024 10:29:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+26:29:59.996] 20-Feb-2024 10:29:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+26:30:00.000] 20-Feb-2024 10:30:00.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=-19.189° and elevation=69.046°
+[T+26:30:00.000] 20-Feb-2024 10:30:00.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+26:34:59.996] 20-Feb-2024 10:34:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+26:35:00.000] 20-Feb-2024 10:35:00.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+[T+26:35:00.000] 20-Feb-2024 10:35:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+27:13:59.988] 20-Feb-2024 11:13:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+27:13:59.996] 20-Feb-2024 11:13:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+27:14:00.000] 20-Feb-2024 11:14:00.000	GS OPERATOR: Point "AWS Sydney" gs gimbal to azimuth=125.856° and elevation=68.738°
+[T+27:14:00.000] 20-Feb-2024 11:14:00.000	GS OPERATOR: Start Rx in "AWS Sydney Rx" ground station
+											> Downlink started between "AWS Sydney Rx" and "ULTRON Tx"
+											> Window duration: 270 sec
+
+[T+27:18:29.996] 20-Feb-2024 11:18:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+27:18:30.000] 20-Feb-2024 11:18:30.000	GS OPERATOR: End Rx in "AWS Sydney" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 19 %
+%%%%%%%%%%%%%%%%%%
+
+[T+27:18:30.000] 20-Feb-2024 11:18:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+30:07:14.988] 20-Feb-2024 14:07:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+30:07:14.996] 20-Feb-2024 14:07:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+30:07:15.000] 20-Feb-2024 14:07:15.000	GS OPERATOR: Point "AWS Seoul" gs gimbal to azimuth=173.740° and elevation=69.878°
+[T+30:07:15.000] 20-Feb-2024 14:07:15.000	GS OPERATOR: Start Rx in "AWS Seoul Rx" ground station
+											> Downlink started between "AWS Seoul Rx" and "ULTRON Tx"
+											> Window duration: 345 sec
+
+[T+30:12:59.996] 20-Feb-2024 14:12:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+30:13:00.000] 20-Feb-2024 14:13:00.000	GS OPERATOR: End Rx in "AWS Seoul" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 20 %
+%%%%%%%%%%%%%%%%%%
+
+[T+30:13:00.000] 20-Feb-2024 14:13:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+30:52:14.988] 20-Feb-2024 14:52:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+30:52:14.996] 20-Feb-2024 14:52:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+30:52:15.000] 20-Feb-2024 14:52:15.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=38.691° and elevation=69.269°
+[T+30:52:15.000] 20-Feb-2024 14:52:15.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+30:57:14.996] 20-Feb-2024 14:57:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+30:57:15.000] 20-Feb-2024 14:57:15.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+[T+30:57:15.000] 20-Feb-2024 14:57:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+31:16:59.988] 20-Feb-2024 15:16:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+31:16:59.996] 20-Feb-2024 15:16:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+31:17:00.000] 20-Feb-2024 15:17:00.000	GS OPERATOR: Point "AWS Ohio" gs gimbal to azimuth=5.904° and elevation=68.173°
+[T+31:17:00.000] 20-Feb-2024 15:17:00.000	GS OPERATOR: Start Rx in "AWS Ohio Rx" ground station
+											> Downlink started between "AWS Ohio Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+31:22:29.996] 20-Feb-2024 15:22:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+31:22:30.000] 20-Feb-2024 15:22:30.000	GS OPERATOR: End Rx in "AWS Ohio" ground station
+
+[T+31:22:30.000] 20-Feb-2024 15:22:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+31:55:14.988] 20-Feb-2024 15:55:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+31:55:14.996] 20-Feb-2024 15:55:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+31:55:15.000] 20-Feb-2024 15:55:15.000	GS OPERATOR: Point "AWS Singapore" gs gimbal to azimuth=-123.080° and elevation=70.274°
+[T+31:55:15.000] 20-Feb-2024 15:55:15.000	GS OPERATOR: Start Rx in "AWS Singapore Rx" ground station
+											> Downlink started between "AWS Singapore Rx" and "ULTRON Tx"
+											> Window duration: 120 sec
+
+[T+31:57:14.996] 20-Feb-2024 15:57:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+31:57:15.000] 20-Feb-2024 15:57:15.000	GS OPERATOR: End Rx in "AWS Singapore" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 21 %
+%%%%%%%%%%%%%%%%%%
+
+[T+31:57:15.000] 20-Feb-2024 15:57:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+32:28:29.988] 20-Feb-2024 16:28:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+32:28:29.996] 20-Feb-2024 16:28:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+32:28:30.000] 20-Feb-2024 16:28:30.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=-21.024° and elevation=69.348°
+[T+32:28:30.000] 20-Feb-2024 16:28:30.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 240 sec
+
+[T+32:32:29.996] 20-Feb-2024 16:32:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+32:32:30.000] 20-Feb-2024 16:32:30.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+[T+32:32:30.000] 20-Feb-2024 16:32:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+32:56:14.988] 20-Feb-2024 16:56:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+32:56:14.996] 20-Feb-2024 16:56:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+32:56:15.000] 20-Feb-2024 16:56:15.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=65.496° and elevation=68.639°
+[T+32:56:15.000] 20-Feb-2024 16:56:15.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 240 sec
+
+[T+33:00:14.996] 20-Feb-2024 17:00:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+33:00:15.000] 20-Feb-2024 17:00:15.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 22 %
+%%%%%%%%%%%%%%%%%%
+
+[T+33:00:15.000] 20-Feb-2024 17:00:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+34:32:44.988] 20-Feb-2024 18:32:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+34:32:44.996] 20-Feb-2024 18:32:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+34:32:45.000] 20-Feb-2024 18:32:45.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=-58.340° and elevation=69.717°
+[T+34:32:45.000] 20-Feb-2024 18:32:45.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 165 sec
+
+[T+34:35:29.996] 20-Feb-2024 18:35:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+34:35:30.000] 20-Feb-2024 18:35:30.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+[T+34:35:30.000] 20-Feb-2024 18:35:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+35:00:59.988] 20-Feb-2024 19:00:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+35:00:59.996] 20-Feb-2024 19:00:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+35:01:00.000] 20-Feb-2024 19:01:00.000	GS OPERATOR: Point "AWS Bahrain" gs gimbal to azimuth=168.135° and elevation=70.222°
+[T+35:01:00.000] 20-Feb-2024 19:01:00.000	GS OPERATOR: Start Rx in "AWS Bahrain Rx" ground station
+											> Downlink started between "AWS Bahrain Rx" and "ULTRON Tx"
+											> Window duration: 345 sec
+
+[T+35:06:44.996] 20-Feb-2024 19:06:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+35:06:45.000] 20-Feb-2024 19:06:45.000	GS OPERATOR: End Rx in "AWS Bahrain" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 23 %
+%%%%%%%%%%%%%%%%%%
+
+[T+35:06:45.000] 20-Feb-2024 19:06:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+36:02:44.988] 20-Feb-2024 20:02:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+36:02:44.996] 20-Feb-2024 20:02:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+36:02:45.000] 20-Feb-2024 20:02:45.000	GS OPERATOR: Point "AWS Hawái" gs gimbal to azimuth=38.019° and elevation=69.488°
+[T+36:02:45.000] 20-Feb-2024 20:02:45.000	GS OPERATOR: Start Rx in "AWS Hawái Rx" ground station
+											> Downlink started between "AWS Hawái Rx" and "ULTRON Tx"
+											> Window duration: 315 sec
+
+[T+36:07:59.996] 20-Feb-2024 20:07:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+36:08:00.000] 20-Feb-2024 20:08:00.000	GS OPERATOR: End Rx in "AWS Hawái" ground station
+
+[T+36:08:00.000] 20-Feb-2024 20:08:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+36:30:44.988] 20-Feb-2024 20:30:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+36:30:44.996] 20-Feb-2024 20:30:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+36:30:45.000] 20-Feb-2024 20:30:45.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=116.075° and elevation=69.190°
+[T+36:30:45.000] 20-Feb-2024 20:30:45.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 165 sec
+
+[T+36:33:29.996] 20-Feb-2024 20:33:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+36:33:30.000] 20-Feb-2024 20:33:30.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+[T+36:33:30.000] 20-Feb-2024 20:33:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+36:54:14.988] 20-Feb-2024 20:54:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+36:54:14.996] 20-Feb-2024 20:54:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+36:54:15.000] 20-Feb-2024 20:54:15.000	GS OPERATOR: Point "AWS Cape Town" gs gimbal to azimuth=-162.147° and elevation=68.206°
+[T+36:54:15.000] 20-Feb-2024 20:54:15.000	GS OPERATOR: Start Rx in "AWS Cape Town Rx" ground station
+											> Downlink started between "AWS Cape Town Rx" and "ULTRON Tx"
+											> Window duration: 300 sec
+
+[T+36:59:14.996] 20-Feb-2024 20:59:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+36:59:15.000] 20-Feb-2024 20:59:15.000	GS OPERATOR: End Rx in "AWS Cape Town" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 24 %
+%%%%%%%%%%%%%%%%%%
+
+[T+36:59:15.000] 20-Feb-2024 20:59:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+38:05:29.988] 20-Feb-2024 22:05:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+38:05:29.996] 20-Feb-2024 22:05:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+38:05:30.000] 20-Feb-2024 22:05:30.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=172.177° and elevation=68.930°
+[T+38:05:30.000] 20-Feb-2024 22:05:30.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+38:10:59.996] 20-Feb-2024 22:10:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+38:11:00.000] 20-Feb-2024 22:11:00.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+[T+38:09:44.996] 20-Feb-2024 22:09:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+38:09:45.000] 20-Feb-2024 22:09:45.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=105.933° and elevation=70.043°
+[T+38:09:45.000] 20-Feb-2024 22:09:45.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 90 sec
+
+[T+38:11:14.996] 20-Feb-2024 22:11:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+38:11:15.000] 20-Feb-2024 22:11:15.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 25 %
+%%%%%%%%%%%%%%%%%%
+
+[T+38:11:15.000] 20-Feb-2024 22:11:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+39:43:59.988] 20-Feb-2024 23:43:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+39:43:59.996] 20-Feb-2024 23:43:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+39:44:00.000] 20-Feb-2024 23:44:00.000	GS OPERATOR: Point "AWS Ireland" gs gimbal to azimuth=179.415° and elevation=69.744°
+[T+39:44:00.000] 20-Feb-2024 23:44:00.000	GS OPERATOR: Start Rx in "AWS Ireland Rx" ground station
+											> Downlink started between "AWS Ireland Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+39:49:29.996] 20-Feb-2024 23:49:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+39:49:30.000] 20-Feb-2024 23:49:30.000	GS OPERATOR: End Rx in "AWS Ireland" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 26 %
+%%%%%%%%%%%%%%%%%%
+
+[T+39:49:30.000] 20-Feb-2024 23:49:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+40:37:59.988] 21-Feb-2024 00:37:59.988	PLATFORM OPERATOR: Send TC_On
+
+[T+40:37:59.996] 21-Feb-2024 00:37:59.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+40:38:00.000] 21-Feb-2024 00:38:00.000	GS OPERATOR: Point "AWS Sydney" gs gimbal to azimuth=0.355° and elevation=68.886°
+[T+40:38:00.000] 21-Feb-2024 00:38:00.000	GS OPERATOR: Start Rx in "AWS Sydney Rx" ground station
+											> Downlink started between "AWS Sydney Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+40:43:29.996] 21-Feb-2024 00:43:29.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+40:43:30.000] 21-Feb-2024 00:43:30.000	GS OPERATOR: End Rx in "AWS Sydney" ground station
+
+[T+40:43:30.000] 21-Feb-2024 00:43:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+40:57:44.988] 21-Feb-2024 00:57:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+40:57:44.996] 21-Feb-2024 00:57:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+40:57:45.000] 21-Feb-2024 00:57:45.000	GS OPERATOR: Point "AWS Seoul" gs gimbal to azimuth=31.891° and elevation=68.361°
+[T+40:57:45.000] 21-Feb-2024 00:57:45.000	GS OPERATOR: Start Rx in "AWS Seoul Rx" ground station
+											> Downlink started between "AWS Seoul Rx" and "ULTRON Tx"
+											> Window duration: 315 sec
+
+[T+41:02:59.996] 21-Feb-2024 01:02:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+41:03:00.000] 21-Feb-2024 01:03:00.000	GS OPERATOR: End Rx in "AWS Seoul" ground station
+
+[T+41:03:00.000] 21-Feb-2024 01:03:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+41:50:14.988] 21-Feb-2024 01:50:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+41:50:14.996] 21-Feb-2024 01:50:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+41:50:15.000] 21-Feb-2024 01:50:15.000	GS OPERATOR: Point "AWS Punta Arenas" gs gimbal to azimuth=147.251° and elevation=69.284°
+[T+41:50:15.000] 21-Feb-2024 01:50:15.000	GS OPERATOR: Start Rx in "AWS Punta Arenas Rx" ground station
+											> Downlink started between "AWS Punta Arenas Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+41:55:44.996] 21-Feb-2024 01:55:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+41:55:45.000] 21-Feb-2024 01:55:45.000	GS OPERATOR: End Rx in "AWS Punta Arenas" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 28 %
+%%%%%%%%%%%%%%%%%%
+
+[T+41:55:45.000] 21-Feb-2024 01:55:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+44:38:29.988] 21-Feb-2024 04:38:29.988	PLATFORM OPERATOR: Send TC_On
+
+[T+44:38:29.996] 21-Feb-2024 04:38:29.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+44:38:30.000] 21-Feb-2024 04:38:30.000	GS OPERATOR: Point "AWS Ohio" gs gimbal to azimuth=-160.696° and elevation=68.786°
+[T+44:38:30.000] 21-Feb-2024 04:38:30.000	GS OPERATOR: Start Rx in "AWS Ohio Rx" ground station
+											> Downlink started between "AWS Ohio Rx" and "ULTRON Tx"
+											> Window duration: 270 sec
+
+[T+44:42:59.996] 21-Feb-2024 04:42:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+44:43:00.000] 21-Feb-2024 04:43:00.000	GS OPERATOR: End Rx in "AWS Ohio" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 29 %
+%%%%%%%%%%%%%%%%%%
+
+[T+44:43:00.000] 21-Feb-2024 04:43:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+45:47:14.988] 21-Feb-2024 05:47:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+45:47:14.996] 21-Feb-2024 05:47:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+45:47:15.000] 21-Feb-2024 05:47:15.000	GS OPERATOR: Point "AWS Bahrain" gs gimbal to azimuth=85.642° and elevation=69.795°
+[T+45:47:15.000] 21-Feb-2024 05:47:15.000	GS OPERATOR: Start Rx in "AWS Bahrain Rx" ground station
+											> Downlink started between "AWS Bahrain Rx" and "ULTRON Tx"
+											> Window duration: 120 sec
+
+[T+45:49:14.996] 21-Feb-2024 05:49:14.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+45:49:15.000] 21-Feb-2024 05:49:15.000	GS OPERATOR: End Rx in "AWS Bahrain" ground station
+
+[T+45:49:15.000] 21-Feb-2024 05:49:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+46:14:44.988] 21-Feb-2024 06:14:44.988	PLATFORM OPERATOR: Send TC_On
+
+[T+46:14:44.996] 21-Feb-2024 06:14:44.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+46:14:45.000] 21-Feb-2024 06:14:45.000	GS OPERATOR: Point "AWS Oregon" gs gimbal to azimuth=148.081° and elevation=68.090°
+[T+46:14:45.000] 21-Feb-2024 06:14:45.000	GS OPERATOR: Start Rx in "AWS Oregon Rx" ground station
+											> Downlink started between "AWS Oregon Rx" and "ULTRON Tx"
+											> Window duration: 315 sec
+
+[T+46:19:59.996] 21-Feb-2024 06:19:59.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+46:20:00.000] 21-Feb-2024 06:20:00.000	GS OPERATOR: End Rx in "AWS Oregon" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 30 %
+%%%%%%%%%%%%%%%%%%
+
+[T+46:20:00.000] 21-Feb-2024 06:20:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+47:31:14.988] 21-Feb-2024 07:31:14.988	PLATFORM OPERATOR: Send TC_On
+
+[T+47:31:14.996] 21-Feb-2024 07:31:14.996	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+47:31:15.000] 21-Feb-2024 07:31:15.000	GS OPERATOR: Point "AWS Stockholm" gs gimbal to azimuth=42.361° and elevation=69.412°
+[T+47:31:15.000] 21-Feb-2024 07:31:15.000	GS OPERATOR: Start Rx in "AWS Stockholm Rx" ground station
+											> Downlink started between "AWS Stockholm Rx" and "ULTRON Tx"
+											> Window duration: 330 sec
+
+[T+47:36:44.996] 21-Feb-2024 07:36:44.996	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+
+[T+47:36:45.000] 21-Feb-2024 07:36:45.000	GS OPERATOR: End Rx in "AWS Stockholm" ground station
+
+
+--------------------------------------------------------------------------------------
+
+MISSION PLAN SUMMARY
+
+	> Orbital platform: 
+		ULTRON PLATFORM
+
+	> Ground stations accessed: 
+		AWS Bahrain Rx: 4
+		AWS Cape Town Rx: 5
+		AWS Hawái Rx: 4
+		AWS Ireland Rx: 7
+		AWS Ohio Rx: 4
+		AWS Oregon Rx: 7
+		AWS Punta Arenas Rx: 7
+		AWS Seoul Rx: 4
+		AWS Singapore Rx: 3
+		AWS Stockholm Rx: 7
+		AWS Sydney Rx: 5
+		TAS Tres Cantos Rx: 1
+
+	Total time of active link: 244.000 minutes
