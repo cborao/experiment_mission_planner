@@ -1,0 +1,386 @@
+--------------------------------------------------------------------------------------
+MISSION PLAN
+--------------------------------------------------------------------------------------
+
+Generation date: 15-May-2023 16:31:52
+
+--------------------------------------------------------------------------------------
+Mission Parameters: 
+
+	UTC Start Time: 05-May-2025 07:00:00
+	UTC End Time: 08-May-2025 07:00:00
+
+Experiment Parameters: 
+
+	Estimated 𝜏_tc/tm: 2 ms
+	T_on: 1500 ms
+	T_off: 1000 ms
+	T_idle: 20 minutes
+
+Experiment link type: Uplink
+
+--------------------------------------------------------------------------------------
+
+[T+00:00:00.000] 05-May-2025 07:00:00.000 MISSION START
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 1 %
+%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 2 %
+%%%%%%%%%%%%%%%%%%
+
+[T+01:59:59.994] 05-May-2025 08:59:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+01:59:59.998] 05-May-2025 08:59:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+02:00:00.000] 05-May-2025 09:00:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=126.468° and elevation=73.801°
+[T+02:00:00.000] 05-May-2025 09:00:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 300 sec
+
+[T+02:04:59.998] 05-May-2025 09:04:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+02:05:00.000] 05-May-2025 09:05:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 3 %
+%%%%%%%%%%%%%%%%%%
+
+[T+02:05:00.000] 05-May-2025 09:05:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+03:38:29.994] 05-May-2025 10:38:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+03:38:29.998] 05-May-2025 10:38:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+03:38:30.000] 05-May-2025 10:38:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=173.386° and elevation=74.276°
+[T+03:38:30.000] 05-May-2025 10:38:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 510 sec
+
+[T+03:46:59.998] 05-May-2025 10:46:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+03:47:00.000] 05-May-2025 10:47:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+03:41:29.998] 05-May-2025 10:41:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+03:41:30.000] 05-May-2025 10:41:30.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=167.589° and elevation=73.458°
+[T+03:41:30.000] 05-May-2025 10:41:30.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 510 sec
+
+[T+03:49:59.998] 05-May-2025 10:49:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+03:50:00.000] 05-May-2025 10:50:00.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 8 %
+%%%%%%%%%%%%%%%%%%
+
+[T+03:50:00.000] 05-May-2025 10:50:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+13:23:29.994] 05-May-2025 20:23:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+13:23:29.998] 05-May-2025 20:23:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+13:23:30.000] 05-May-2025 20:23:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=40.702° and elevation=71.698°
+[T+13:23:30.000] 05-May-2025 20:23:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 450 sec
+
+[T+13:30:59.998] 05-May-2025 20:30:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+13:31:00.000] 05-May-2025 20:31:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+13:23:59.998] 05-May-2025 20:23:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+13:24:00.000] 05-May-2025 20:24:00.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=95.179° and elevation=73.742°
+[T+13:24:00.000] 05-May-2025 20:24:00.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 210 sec
+
+[T+13:27:29.998] 05-May-2025 20:27:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+13:27:30.000] 05-May-2025 20:27:30.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 9 %
+%%%%%%%%%%%%%%%%%%
+
+[T+13:27:30.000] 05-May-2025 20:27:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+15:00:59.994] 05-May-2025 22:00:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+15:00:59.998] 05-May-2025 22:00:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+15:01:00.000] 05-May-2025 22:01:00.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=-3.863° and elevation=71.871°
+[T+15:01:00.000] 05-May-2025 22:01:00.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 480 sec
+
+[T+15:08:59.998] 05-May-2025 22:08:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+15:09:00.000] 05-May-2025 22:09:00.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+[T+15:04:29.998] 05-May-2025 22:04:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+15:04:30.000] 05-May-2025 22:04:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=-45.068° and elevation=72.939°
+[T+15:04:30.000] 05-May-2025 22:04:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 330 sec
+
+[T+15:09:59.998] 05-May-2025 22:09:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+15:10:00.000] 05-May-2025 22:10:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 17 %
+%%%%%%%%%%%%%%%%%%
+
+[T+15:10:00.000] 05-May-2025 22:10:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+27:12:29.994] 06-May-2025 10:12:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+27:12:29.998] 06-May-2025 10:12:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+27:12:30.000] 06-May-2025 10:12:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=163.666° and elevation=73.003°
+[T+27:12:30.000] 06-May-2025 10:12:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 510 sec
+
+[T+27:20:59.998] 06-May-2025 10:20:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+27:21:00.000] 06-May-2025 10:21:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+27:15:29.998] 06-May-2025 10:15:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+27:15:30.000] 06-May-2025 10:15:30.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=153.593° and elevation=73.790°
+[T+27:15:30.000] 06-May-2025 10:15:30.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 480 sec
+
+[T+27:23:29.998] 06-May-2025 10:23:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+27:23:30.000] 06-May-2025 10:23:30.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 18 %
+%%%%%%%%%%%%%%%%%%
+
+[T+27:23:30.000] 06-May-2025 10:23:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+28:53:59.994] 06-May-2025 11:53:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+28:53:59.998] 06-May-2025 11:53:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+28:54:00.000] 06-May-2025 11:54:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=-148.973° and elevation=74.018°
+[T+28:54:00.000] 06-May-2025 11:54:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 210 sec
+
+[T+28:57:29.998] 06-May-2025 11:57:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+28:57:30.000] 06-May-2025 11:57:30.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+28:56:59.998] 06-May-2025 11:56:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+28:57:00.000] 06-May-2025 11:57:00.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=-143.581° and elevation=73.544°
+[T+28:57:00.000] 06-May-2025 11:57:00.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 240 sec
+
+[T+29:00:59.998] 06-May-2025 12:00:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+29:01:00.000] 06-May-2025 12:01:00.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 22 %
+%%%%%%%%%%%%%%%%%%
+
+[T+29:01:00.000] 06-May-2025 12:01:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+36:57:59.994] 06-May-2025 19:57:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+36:57:59.998] 06-May-2025 19:57:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+36:58:00.000] 06-May-2025 19:58:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=62.096° and elevation=72.406°
+[T+36:58:00.000] 06-May-2025 19:58:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 420 sec
+
+[T+37:04:59.998] 06-May-2025 20:04:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+37:05:00.000] 06-May-2025 20:05:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 23 %
+%%%%%%%%%%%%%%%%%%
+
+[T+37:05:00.000] 06-May-2025 20:05:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+38:34:29.994] 06-May-2025 21:34:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+38:34:29.998] 06-May-2025 21:34:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+38:34:30.000] 06-May-2025 21:34:30.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=19.471° and elevation=73.811°
+[T+38:34:30.000] 06-May-2025 21:34:30.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 510 sec
+
+[T+38:42:59.998] 06-May-2025 21:42:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+38:43:00.000] 06-May-2025 21:43:00.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+[T+38:36:59.998] 06-May-2025 21:36:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+38:37:00.000] 06-May-2025 21:37:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=-17.410° and elevation=74.602°
+[T+38:37:00.000] 06-May-2025 21:37:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 450 sec
+
+[T+38:44:29.998] 06-May-2025 21:44:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+38:44:30.000] 06-May-2025 21:44:30.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 31 %
+%%%%%%%%%%%%%%%%%%
+
+[T+38:44:30.000] 06-May-2025 21:44:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+50:46:29.994] 07-May-2025 09:46:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+50:46:29.998] 07-May-2025 09:46:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+50:46:30.000] 07-May-2025 09:46:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=152.850° and elevation=73.176°
+[T+50:46:30.000] 07-May-2025 09:46:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 480 sec
+
+[T+50:54:29.998] 07-May-2025 09:54:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+50:54:30.000] 07-May-2025 09:54:30.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+50:49:59.998] 07-May-2025 09:49:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+50:50:00.000] 07-May-2025 09:50:00.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=136.723° and elevation=73.707°
+[T+50:50:00.000] 07-May-2025 09:50:00.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 390 sec
+
+[T+50:56:29.998] 07-May-2025 09:56:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+50:56:30.000] 07-May-2025 09:56:30.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 32 %
+%%%%%%%%%%%%%%%%%%
+
+[T+50:56:30.000] 07-May-2025 09:56:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+52:26:59.994] 07-May-2025 11:26:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+52:26:59.998] 07-May-2025 11:26:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+52:27:00.000] 07-May-2025 11:27:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=-164.870° and elevation=73.085°
+[T+52:27:00.000] 07-May-2025 11:27:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 360 sec
+
+[T+52:32:59.998] 07-May-2025 11:32:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+52:33:00.000] 07-May-2025 11:33:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+[T+52:29:29.998] 07-May-2025 11:29:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+52:29:30.000] 07-May-2025 11:29:30.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=-167.146° and elevation=74.392°
+[T+52:29:30.000] 07-May-2025 11:29:30.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 420 sec
+
+[T+52:36:29.998] 07-May-2025 11:36:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+52:36:30.000] 07-May-2025 11:36:30.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 36 %
+%%%%%%%%%%%%%%%%%%
+
+[T+52:36:30.000] 07-May-2025 11:36:30.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+60:32:59.994] 07-May-2025 19:32:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+60:32:59.998] 07-May-2025 19:32:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+60:33:00.000] 07-May-2025 19:33:00.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=85.697° and elevation=73.228°
+[T+60:33:00.000] 07-May-2025 19:33:00.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 300 sec
+
+[T+60:37:59.998] 07-May-2025 19:37:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+60:38:00.000] 07-May-2025 19:38:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 37 %
+%%%%%%%%%%%%%%%%%%
+
+[T+60:38:00.000] 07-May-2025 19:38:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+62:08:59.994] 07-May-2025 21:08:59.994	PLATFORM OPERATOR: Send TC_On
+
+[T+62:08:59.998] 07-May-2025 21:08:59.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+62:09:00.000] 07-May-2025 21:09:00.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=42.851° and elevation=72.520°
+[T+62:09:00.000] 07-May-2025 21:09:00.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 450 sec
+
+[T+62:16:29.998] 07-May-2025 21:16:29.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+62:16:30.000] 07-May-2025 21:16:30.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+[T+62:10:29.998] 07-May-2025 21:10:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+62:10:30.000] 07-May-2025 21:10:30.000	GS OPERATOR: Point "ESA Redu control center" gs gimbal to azimuth=3.145° and elevation=74.119°
+[T+62:10:30.000] 07-May-2025 21:10:30.000	GS OPERATOR: Start Tx in "ESA Redu control center" ground station
+											> Uplink started between "ESA Redu control center Tx" and "experiment 1"
+											> Window duration: 510 sec
+
+[T+62:18:59.998] 07-May-2025 21:18:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+62:19:00.000] 07-May-2025 21:19:00.000	GS OPERATOR: End Rx in "ESA Redu control center" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 38 %
+%%%%%%%%%%%%%%%%%%
+
+[T+62:19:00.000] 07-May-2025 21:19:00.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+63:50:29.994] 07-May-2025 22:50:29.994	PLATFORM OPERATOR: Send TC_On
+
+[T+63:50:29.998] 07-May-2025 22:50:29.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+63:50:30.000] 07-May-2025 22:50:30.000	GS OPERATOR: Point "Thales Alenia Space Center Madrid" gs gimbal to azimuth=-55.367° and elevation=73.202°
+[T+63:50:30.000] 07-May-2025 22:50:30.000	GS OPERATOR: Start Tx in "Thales Alenia Space Center Madrid" ground station
+											> Uplink started between "Thales Alenia Space Center Madrid Tx" and "experiment 1"
+											> Window duration: 270 sec
+
+[T+63:54:59.998] 07-May-2025 22:54:59.998	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+63:55:00.000] 07-May-2025 22:55:00.000	GS OPERATOR: End Rx in "Thales Alenia Space Center Madrid" ground station
+
+
+--------------------------------------------------------------------------------------
+
+MISSION PLAN SUMMARY
+
+	> Orbital platform: 
+		SENTINEL 3A
+
+	> Ground stations accessed: 
+		ESA Redu control center Tx: 12
+		Thales Alenia Space Center Madrid Tx: 10
+
+	Total time of active link: 146.500 minutes

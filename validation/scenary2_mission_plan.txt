@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------------
+MISSION PLAN
+--------------------------------------------------------------------------------------
+
+Generation date: 26-Jun-2023 16:42:41
+
+--------------------------------------------------------------------------------------
+Mission Parameters: 
+
+	UTC Start Time: 16-Feb-2026 10:30:00
+	UTC End Time: 18-Feb-2026 08:30:00
+
+Experiment Parameters: 
+
+	Estimated 𝜏_tc/tm: 10 ms
+	T_on: 200 ms
+	T_off: 100 ms
+	T_idle: 2 minutes
+
+Experiment link type: Uplink
+
+--------------------------------------------------------------------------------------
+
+[T+00:00:00.000] 16-Feb-2026 10:30:00.000 MISSION START
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 1 %
+%%%%%%%%%%%%%%%%%%
+
+[T+00:19:14.970] 16-Feb-2026 10:49:14.970	PLATFORM OPERATOR: Send TC_On
+
+[T+00:19:14.990] 16-Feb-2026 10:49:14.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+00:19:15.000] 16-Feb-2026 10:49:15.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=162.578° and elevation=73.667°
+[T+00:19:15.000] 16-Feb-2026 10:49:15.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 510 sec
+
+[T+00:27:44.990] 16-Feb-2026 10:57:44.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+00:27:45.000] 16-Feb-2026 10:57:45.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 7 %
+%%%%%%%%%%%%%%%%%%
+
+[T+00:27:45.000] 16-Feb-2026 10:57:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+11:34:14.970] 16-Feb-2026 22:04:14.970	PLATFORM OPERATOR: Send TC_On
+
+[T+11:34:14.990] 16-Feb-2026 22:04:14.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+11:34:15.000] 16-Feb-2026 22:04:15.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=26.986° and elevation=73.373°
+[T+11:34:15.000] 16-Feb-2026 22:04:15.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 510 sec
+
+[T+11:42:44.990] 16-Feb-2026 22:12:44.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+11:42:45.000] 16-Feb-2026 22:12:45.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 15 %
+%%%%%%%%%%%%%%%%%%
+
+[T+11:42:45.000] 16-Feb-2026 22:12:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+23:56:59.970] 17-Feb-2026 10:26:59.970	PLATFORM OPERATOR: Send TC_On
+
+[T+23:56:59.990] 17-Feb-2026 10:26:59.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+23:57:00.000] 17-Feb-2026 10:27:00.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=146.599° and elevation=73.575°
+[T+23:57:00.000] 17-Feb-2026 10:27:00.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 465 sec
+
+[T+24:04:44.990] 17-Feb-2026 10:34:44.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+24:04:45.000] 17-Feb-2026 10:34:45.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 16 %
+%%%%%%%%%%%%%%%%%%
+
+[T+24:04:45.000] 17-Feb-2026 10:34:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+25:38:44.970] 17-Feb-2026 12:08:44.970	PLATFORM OPERATOR: Send TC_On
+
+[T+25:38:44.990] 17-Feb-2026 12:08:44.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+25:38:45.000] 17-Feb-2026 12:08:45.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=-135.056° and elevation=74.721°
+[T+25:38:45.000] 17-Feb-2026 12:08:45.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 210 sec
+
+[T+25:42:14.990] 17-Feb-2026 12:12:14.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+25:42:15.000] 17-Feb-2026 12:12:15.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 21 %
+%%%%%%%%%%%%%%%%%%
+
+[T+25:42:15.000] 17-Feb-2026 12:12:15.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+35:11:59.970] 17-Feb-2026 21:41:59.970	PLATFORM OPERATOR: Send TC_On
+
+[T+35:11:59.990] 17-Feb-2026 21:41:59.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+35:12:00.000] 17-Feb-2026 21:42:00.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=46.916° and elevation=74.982°
+[T+35:12:00.000] 17-Feb-2026 21:42:00.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 465 sec
+
+[T+35:19:44.990] 17-Feb-2026 21:49:44.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+35:19:45.000] 17-Feb-2026 21:49:45.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+%%%%%%%%%%%%%%%%%%
+% ORBIT NUMBER 22 %
+%%%%%%%%%%%%%%%%%%
+
+[T+35:19:45.000] 17-Feb-2026 21:49:45.000	PLATFORM OPERATOR: Send TC_Off
+
+[T+36:53:29.970] 17-Feb-2026 23:23:29.970	PLATFORM OPERATOR: Send TC_On
+
+[T+36:53:29.990] 17-Feb-2026 23:23:29.990	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartRx
+
+[T+36:53:30.000] 17-Feb-2026 23:23:30.000	GS OPERATOR: Point "NASA MCC Houston" gs gimbal to azimuth=-51.788° and elevation=74.888°
+[T+36:53:30.000] 17-Feb-2026 23:23:30.000	GS OPERATOR: Start Tx in "NASA MCC Houston" ground station
+											> Uplink started between "NASA MCC Houston Tx" and "experiment 2"
+											> Window duration: 285 sec
+
+[T+36:58:14.990] 17-Feb-2026 23:28:14.990	PLATFORM OPERATOR: if TM_RxMode received, then Send TC_EndRx
+
+[T+36:58:15.000] 17-Feb-2026 23:28:15.000	GS OPERATOR: End Rx in "NASA MCC Houston" ground station
+
+
+--------------------------------------------------------------------------------------
+
+MISSION PLAN SUMMARY
+
+	> Orbital platform: 
+		PROBA V
+
+	> Ground stations accessed: 
+		NASA MCC Houston Tx: 6
+
+	Total time of active link: 40.750 minutes
