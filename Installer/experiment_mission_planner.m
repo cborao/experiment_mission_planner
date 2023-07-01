@@ -786,7 +786,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
                             return 
                         end
                         mission_timestamp = durationFormatter(app, milliseconds(startTimeData-T0_time));
-                        printf(fileId,'[T+%s] %s\tGS OPERATOR: Point "%s" gs gimbal to azimuth=%.3f° and elevation=%.3f°\n', mission_timestamp, startTimeData, app.gs(index).Name, az, el);
+                        fprintf(fileId,'[T+%s] %s\tGS OPERATOR: Point "%s" gs gimbal to azimuth=%.3f° and elevation=%.3f°\n', mission_timestamp, startTimeData, app.gs(index).Name, az, el);
                     end
 
                     mission_timestamp = durationFormatter(app, milliseconds(startTimeData -T0_time));
