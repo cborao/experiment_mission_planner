@@ -137,7 +137,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
                 end
                 
             catch e
-                fprintf(1,'Error: %s\n',e.message);
+                fprintf(1,'Error: %s\n',e.message); 
                 app.TextArea.Value = "Error: " + e.message;
                 return 
             end
