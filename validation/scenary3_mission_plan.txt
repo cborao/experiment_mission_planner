@@ -2,170 +2,100 @@
 MISSION PLAN
 --------------------------------------------------------------------------------------
 
-Generation date: 29-Jun-2023 11:36:33
+Generation date: 29-Jun-2023 15:24:16
 
 --------------------------------------------------------------------------------------
 Mission Parameters: 
 
-	UTC Start Time: 27-Dec-2030 23:48:09
-	UTC End Time: 31-Dec-2030 17:48:09
+	UTC Start Time: 27-Dec-2030 07:00:00
+	UTC End Time: 31-Dec-2030 01:00:00
 
 Experiment Parameters: 
 
-	Estimated 𝜏_tc/tm: 2 ms
-	T_on: 1500 ms
-	T_off: 1000 ms
-	T_idle: 20 minutes
+	Estimated 𝜏_tc/tm: 70 ms
+	T_on: 60000 ms
+	T_off: 40000 ms
+	T_idle: 30 minutes
 
 Experiment link type: Downlink
 
 --------------------------------------------------------------------------------------
 
-[T+00:00:00.000] 27-Dec-2030 23:48:09.000 MISSION START
+[T+00:00:00.000] 27-Dec-2030 07:00:00.000 MISSION START
 
 %%%%%%%%%%%%%%%%%%
 % ORBIT NUMBER 1 %
 %%%%%%%%%%%%%%%%%%
 
-[T+-1:59:59.998] 27-Dec-2030 23:48:08.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+[T+04:30:59.790] 27-Dec-2030 11:30:59.790	PLATFORM OPERATOR: Send TC_On
 
-[T+00:00:00.000] 27-Dec-2030 23:48:09.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-174.504° and elevation=74.398°
-[T+00:00:00.000] 27-Dec-2030 23:48:09.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
+[T+04:30:59.930] 27-Dec-2030 11:30:59.930	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+
+[T+04:31:00.000] 27-Dec-2030 11:31:00.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-2.129° and elevation=25.069°
+[T+04:31:00.000] 27-Dec-2030 11:31:00.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
 											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 3330 sec
+											> Window duration: 2820 sec
 
-[T+00:55:29.998] 28-Dec-2030 00:43:38.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+[T+05:17:59.930] 27-Dec-2030 12:17:59.930	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
 
-[T+00:55:30.000] 28-Dec-2030 00:43:39.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
-
-[T+00:55:30.000] 28-Dec-2030 00:43:39.000	PLATFORM OPERATOR: Send TC_Off
-
-[T+09:33:29.994] 28-Dec-2030 09:21:38.994	PLATFORM OPERATOR: Send TC_On
-
-[T+09:33:29.998] 28-Dec-2030 09:21:38.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
-
-[T+09:33:30.000] 28-Dec-2030 09:21:39.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-30.662° and elevation=74.978°
-[T+09:33:30.000] 28-Dec-2030 09:21:39.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
-											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 17730 sec
-
-[T+14:28:59.998] 28-Dec-2030 14:17:08.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
-
-[T+14:29:00.000] 28-Dec-2030 14:17:09.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
-
-%%%%%%%%%%%%%%%%%%
-% ORBIT NUMBER 2 %
-%%%%%%%%%%%%%%%%%%
-
-[T+14:29:00.000] 28-Dec-2030 14:17:09.000	PLATFORM OPERATOR: Send TC_Off
-
-[T+23:52:29.994] 28-Dec-2030 23:40:38.994	PLATFORM OPERATOR: Send TC_On
-
-[T+23:52:29.998] 28-Dec-2030 23:40:38.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
-
-[T+23:52:30.000] 28-Dec-2030 23:40:39.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-176.593° and elevation=74.977°
-[T+23:52:30.000] 28-Dec-2030 23:40:39.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
-											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 3600 sec
-
-[T+24:52:29.998] 29-Dec-2030 00:40:38.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
-
-[T+24:52:30.000] 29-Dec-2030 00:40:39.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
+[T+05:18:00.000] 27-Dec-2030 12:18:00.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
 
 %%%%%%%%%%%%%%%%%%
 % ORBIT NUMBER 3 %
 %%%%%%%%%%%%%%%%%%
 
-[T+24:52:30.000] 29-Dec-2030 00:40:39.000	PLATFORM OPERATOR: Send TC_Off
+[T+05:18:00.000] 27-Dec-2030 12:18:00.000	PLATFORM OPERATOR: Send TC_Off
 
-[T+33:31:29.994] 29-Dec-2030 09:19:38.994	PLATFORM OPERATOR: Send TC_On
+[T+28:28:29.790] 28-Dec-2030 11:28:29.790	PLATFORM OPERATOR: Send TC_On
 
-[T+33:31:29.998] 29-Dec-2030 09:19:38.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+[T+28:28:29.930] 28-Dec-2030 11:28:29.930	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
 
-[T+33:31:30.000] 29-Dec-2030 09:19:39.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-31.110° and elevation=74.846°
-[T+33:31:30.000] 29-Dec-2030 09:19:39.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
+[T+28:28:30.000] 28-Dec-2030 11:28:30.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-2.906° and elevation=25.073°
+[T+28:28:30.000] 28-Dec-2030 11:28:30.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
 											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 17730 sec
+											> Window duration: 2850 sec
 
-[T+38:26:59.998] 29-Dec-2030 14:15:08.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+[T+29:15:59.930] 28-Dec-2030 12:15:59.930	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
 
-[T+38:27:00.000] 29-Dec-2030 14:15:09.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
-
-%%%%%%%%%%%%%%%%%%
-% ORBIT NUMBER 4 %
-%%%%%%%%%%%%%%%%%%
-
-[T+38:27:00.000] 29-Dec-2030 14:15:09.000	PLATFORM OPERATOR: Send TC_Off
-
-[T+47:49:59.994] 29-Dec-2030 23:38:08.994	PLATFORM OPERATOR: Send TC_On
-
-[T+47:49:59.998] 29-Dec-2030 23:38:08.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
-
-[T+47:50:00.000] 29-Dec-2030 23:38:09.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-176.877° and elevation=74.984°
-[T+47:50:00.000] 29-Dec-2030 23:38:09.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
-											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 3570 sec
-
-[T+48:49:29.998] 30-Dec-2030 00:37:38.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
-
-[T+48:49:30.000] 30-Dec-2030 00:37:39.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
+[T+29:16:00.000] 28-Dec-2030 12:16:00.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
 
 %%%%%%%%%%%%%%%%%%
 % ORBIT NUMBER 5 %
 %%%%%%%%%%%%%%%%%%
 
-[T+48:49:30.000] 30-Dec-2030 00:37:39.000	PLATFORM OPERATOR: Send TC_Off
+[T+29:16:00.000] 28-Dec-2030 12:16:00.000	PLATFORM OPERATOR: Send TC_Off
 
-[T+57:28:59.994] 30-Dec-2030 09:17:08.994	PLATFORM OPERATOR: Send TC_On
+[T+52:25:59.790] 29-Dec-2030 11:25:59.790	PLATFORM OPERATOR: Send TC_On
 
-[T+57:28:59.998] 30-Dec-2030 09:17:08.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+[T+52:25:59.930] 29-Dec-2030 11:25:59.930	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
 
-[T+57:29:00.000] 30-Dec-2030 09:17:09.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-31.550° and elevation=74.925°
-[T+57:29:00.000] 30-Dec-2030 09:17:09.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
+[T+52:26:00.000] 29-Dec-2030 11:26:00.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-3.689° and elevation=25.081°
+[T+52:26:00.000] 29-Dec-2030 11:26:00.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
 											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 17760 sec
+											> Window duration: 2880 sec
 
-[T+62:24:59.998] 30-Dec-2030 14:13:08.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+[T+53:13:59.930] 29-Dec-2030 12:13:59.930	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
 
-[T+62:25:00.000] 30-Dec-2030 14:13:09.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
-
-%%%%%%%%%%%%%%%%%%
-% ORBIT NUMBER 6 %
-%%%%%%%%%%%%%%%%%%
-
-[T+62:25:00.000] 30-Dec-2030 14:13:09.000	PLATFORM OPERATOR: Send TC_Off
-
-[T+71:47:29.994] 30-Dec-2030 23:35:38.994	PLATFORM OPERATOR: Send TC_On
-
-[T+71:47:29.998] 30-Dec-2030 23:35:38.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
-
-[T+71:47:30.000] 30-Dec-2030 23:35:39.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-177.164° and elevation=74.991°
-[T+71:47:30.000] 30-Dec-2030 23:35:39.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
-											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 3510 sec
-
-[T+72:45:59.998] 31-Dec-2030 00:34:08.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
-
-[T+72:46:00.000] 31-Dec-2030 00:34:09.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
+[T+53:14:00.000] 29-Dec-2030 12:14:00.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
 
 %%%%%%%%%%%%%%%%%%
 % ORBIT NUMBER 7 %
 %%%%%%%%%%%%%%%%%%
 
-[T+72:46:00.000] 31-Dec-2030 00:34:09.000	PLATFORM OPERATOR: Send TC_Off
+[T+53:14:00.000] 29-Dec-2030 12:14:00.000	PLATFORM OPERATOR: Send TC_Off
 
-[T+81:26:59.994] 31-Dec-2030 09:15:08.994	PLATFORM OPERATOR: Send TC_On
+[T+76:23:29.790] 30-Dec-2030 11:23:29.790	PLATFORM OPERATOR: Send TC_On
 
-[T+81:26:59.998] 31-Dec-2030 09:15:08.998	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
+[T+76:23:29.930] 30-Dec-2030 11:23:29.930	PLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx
 
-[T+81:27:00.000] 31-Dec-2030 09:15:09.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-32.001° and elevation=74.800°
-[T+81:27:00.000] 31-Dec-2030 09:15:09.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
+[T+76:23:30.000] 30-Dec-2030 11:23:30.000	GS OPERATOR: Point "ESA Kiruna Ground Station" gs gimbal to azimuth=-4.480° and elevation=25.092°
+[T+76:23:30.000] 30-Dec-2030 11:23:30.000	GS OPERATOR: Start Rx in "ESA Kiruna Ground Station Rx" ground station
 											> Downlink started between "ESA Kiruna Ground Station Rx" and "experiment 3"
-											> Window duration: 17730 sec
+											> Window duration: 2910 sec
 
-[T+86:22:29.998] 31-Dec-2030 14:10:38.998	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
+[T+77:11:59.930] 30-Dec-2030 12:11:59.930	PLATFORM OPERATOR: if TM_TxMode received, then Send TC_EndTx
 
-[T+86:22:30.000] 31-Dec-2030 14:10:39.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
+[T+77:12:00.000] 30-Dec-2030 12:12:00.000	GS OPERATOR: End Rx in "ESA Kiruna Ground Station" ground station
 
 
 --------------------------------------------------------------------------------------
@@ -176,6 +106,6 @@ MISSION PLAN SUMMARY
 		NAVSTAR 46 (USA 145)    
 
 	> Ground stations accessed: 
-		ESA Kiruna Ground Station Rx: 8
+		ESA Kiruna Ground Station Rx: 4
 
-	Total time of active link: 1416.000 minutes
+	Total time of active link: 191.000 minutes

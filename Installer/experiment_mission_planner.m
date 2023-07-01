@@ -105,8 +105,10 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             try
                 % Set mission and simulation configuration
                 date = app.DateDatePicker.Value;
-                hour = datetime(app.HourEditField.Value, 'InputFormat', 'HH:mm:ss','TimeZone','UTC');
-                app.startTime = date + hours(hour.Hour) + minutes(hour.Minute) + seconds(hour.Second);
+                hour = app.HourEditField.Value;
+                hour = datetime(hour, 'InputFormat', 'HH:mm:ss');
+                app.startTime = datetime(date.Year, date.Month, date.Day, hour.Hour, hour.Minute, hour.Second);
+
                 app.duration = hours(str2double(app.ScenaryDurationhEditField.Value));
                 sampleTime = str2double(app.SampletimesEditField.Value);
                 app.stopTime = app.startTime + app.duration;
@@ -122,22 +124,24 @@ classdef experiment_mission_planner < matlab.apps.AppBase
         
         % Create orbital platform object from .tle file
         function sat = SatFromTle(app,sc)
+
             try 
-                % Create satellite object
+                %Create satellite object
                 sat = satellite(sc,app.tleFile);
                 assignin('base','sat',sat)
-                
-                % Create if there is only one satellite in the file (not a
-                % constellation)
+
+                %Create if there is only one satellite in the file (not a constellation)
                 if size(sat,2) ~= 1
                     disp(strcat('Error: File "',app.tleInfo.Value ,'" includes a satellite constellation. Program works with an GsFromXlsxunique satellite')); 
                     error("More than one satellite included in .tle file")
                 end
+                
             catch e
                 fprintf(1,'Error: %s\n',e.message);
                 app.TextArea.Value = "Error: " + e.message;
                 return 
             end
+            
         end
     
         % Create ground segment objects from .xlsx file
@@ -496,10 +500,10 @@ classdef experiment_mission_planner < matlab.apps.AppBase
 
             % Create mission scenario 
             sc = createScenario(app);
-           
+            
             % Create orbital platform data from selected .tle file
             sat = SatFromTle(app,sc);
-   
+            
             % Add RF satellite experiment equipment
             [satRFEquipment, ~] = addSatRFEquipment(app,sat);
             
@@ -696,8 +700,8 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             fprintf(fileId,'Generation date: %s\n',datetime("now"));
             fprintf(fileId,'\n--------------------------------------------------------------------------------------\n');
             fprintf(fileId,'Mission Parameters: \n\n');
-            fprintf(fileId,'\tUTC Start Time: %s\n',datetime(app.startTime, 'Format', 'dd-MMM-y HH:mm:ss','TimeZone','UTC'));
-            fprintf(fileId,'\tUTC End Time: %s\n\n',datetime(app.stopTime, 'Format', 'dd-MMM-y HH:mm:ss','TimeZone','UTC'));
+            fprintf(fileId,'\tUTC Start Time: %s\n',app.startTime);
+            fprintf(fileId,'\tUTC End Time: %s\n\n',app.stopTime);
             fprintf(fileId,'Experiment Parameters: \n\n');
             fprintf(fileId,'\tEstimated 𝜏_tc/tm: %d ms\n',app.T_tcmsEditField.Value);
             fprintf(fileId,'\tT_on: %d ms\n',app.T_onmsEditField.Value);
@@ -729,11 +733,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             fprintf(fileId,'[T+00:00:00.000] %s MISSION START\n\n', last_tc_received); 
 
             total_duration = 0;
-            last_orbit = 1;
-
-            fprintf(fileId,'%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n');
-            fprintf(fileId,'%% ORBIT NUMBER 1 %%\n');
-            fprintf(fileId,'%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n');
+            last_orbit = 0;
 
             for i = 1:size(app.UITable.Data,1)
 
@@ -777,9 +777,16 @@ classdef experiment_mission_planner < matlab.apps.AppBase
                     [gimbal, index] = getGimbalFromRFEquipment(app,source);
                     
                     if ~isempty(gimbal)
-                        [az,el] = gimbalAngles(gimbal,startTimeData);
+                        try
+                            time = datetime(startTimeData.Year, startTimeData.Month, startTimeData.Day, startTimeData.Hour, startTimeData.Minute, startTimeData.Second);
+                            [az,el] = gimbalAngles(gimbal,time);
+                        catch e
+                            fprintf(1,'Error: %s\n',e.message);
+                            app.TextArea.Value = "Error: " + e.message;
+                            return 
+                        end
                         mission_timestamp = durationFormatter(app, milliseconds(startTimeData-T0_time));
-                        fprintf(fileId,'[T+%s] %s\tGS OPERATOR: Point "%s" gs gimbal to azimuth=%.3f° and elevation=%.3f°\n', mission_timestamp, startTimeData, app.gs(index).Name, az, el);
+                        printf(fileId,'[T+%s] %s\tGS OPERATOR: Point "%s" gs gimbal to azimuth=%.3f° and elevation=%.3f°\n', mission_timestamp, startTimeData, app.gs(index).Name, az, el);
                     end
 
                     mission_timestamp = durationFormatter(app, milliseconds(startTimeData -T0_time));
@@ -797,12 +804,19 @@ classdef experiment_mission_planner < matlab.apps.AppBase
                     mission_timestamp = durationFormatter(app, milliseconds((startTimeData -T_tc)-T0_time));
                     fprintf(fileId,'[T+%s] %s\tPLATFORM OPERATOR: if TM_IdleMode received, then Send TC_StartTx\n\n', mission_timestamp, startTimeData -T_tc);
 
-                    [gimbal, index] = getGimbalFromRFEquipment(app,target);
-                    if ~isempty(gimbal)
-                        [az,el] = gimbalAngles(gimbal,startTimeData);
+                     [gimbal, index] = getGimbalFromRFEquipment(app,target);
+                     if ~isempty(gimbal)
+                        try
+                            time = datetime(startTimeData.Year, startTimeData.Month, startTimeData.Day, startTimeData.Hour, startTimeData.Minute, startTimeData.Second);
+                            [az,el] = gimbalAngles(gimbal,time);
+                        catch e
+                            fprintf(1,'Error: %s\n',e.message);
+                            app.TextArea.Value = "Error: " + e.message;
+                            return 
+                        end    
                         mission_timestamp = durationFormatter(app, milliseconds(startTimeData -T0_time));
                         fprintf(fileId,'[T+%s] %s\tGS OPERATOR: Point "%s" gs gimbal to azimuth=%.3f° and elevation=%.3f°\n', mission_timestamp, startTimeData, app.gs(index).Name, az, el);
-                    end
+                     end
     
                     mission_timestamp = durationFormatter(app, milliseconds(startTimeData -T0_time));
                     fprintf(fileId,'[T+%s] %s\tGS OPERATOR: Start Rx in "%s" ground station\n', mission_timestamp, startTimeData, target);
