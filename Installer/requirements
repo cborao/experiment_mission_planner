@@ -1,0 +1,10 @@
+MATLAB REQUIREMENTS
+
+> Run in MATLAB
+  - Version R2022b or higher
+  - logo.png file in same directory
+  - Satellite Communications Toolbox
+  - MATLAB App Designer
+
+> Run standalone application
+  - MATLAB Runtime R2022b or higher
