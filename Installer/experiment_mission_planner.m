@@ -75,7 +75,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
         ExporttoxlsxfileButton          matlab.ui.control.Button
         UITable                         matlab.ui.control.Table
         InformationTab                  matlab.ui.container.Tab
-        LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel  matlab.ui.control.Label
+        LicenseThalesAleniaSpaceSpainSoftwareLicenseforAcademicUseLabel  matlab.ui.control.Label
         CompanyThalesAleniaSpaceSpainLabel  matlab.ui.control.Label
         UniversityReyJuanCarlosUniversityLabel  matlab.ui.control.Label
         SoftwareVersionv12Label         matlab.ui.control.Label
@@ -1371,10 +1371,10 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             app.CompanyThalesAleniaSpaceSpainLabel.Position = [29 191 208 22];
             app.CompanyThalesAleniaSpaceSpainLabel.Text = 'Company: Thales Alenia Space Spain';
 
-            % Create LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel
-            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel = uilabel(app.InformationTab);
-            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel.Position = [29 126 406 22];
-            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel.Text = 'License: Thales Alenia Space España Software License for Academic Use';
+            % Create LicenseThalesAleniaSpaceSpainSoftwareLicenseforAcademicUseLabel
+            app.LicenseThalesAleniaSpaceSpainSoftwareLicenseforAcademicUseLabel = uilabel(app.InformationTab);
+            app.LicenseThalesAleniaSpaceSpainSoftwareLicenseforAcademicUseLabel.Position = [29 126 396 22];
+            app.LicenseThalesAleniaSpaceSpainSoftwareLicenseforAcademicUseLabel.Text = 'License: Thales Alenia Space Spain Software License for Academic Use';
 
             % Create ContextMenu
             app.ContextMenu = uicontextmenu(app.UIFigure);
