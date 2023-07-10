@@ -75,6 +75,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
         ExporttoxlsxfileButton          matlab.ui.control.Button
         UITable                         matlab.ui.control.Table
         InformationTab                  matlab.ui.container.Tab
+        LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel  matlab.ui.control.Label
         CompanyThalesAleniaSpaceSpainLabel  matlab.ui.control.Label
         UniversityReyJuanCarlosUniversityLabel  matlab.ui.control.Label
         SoftwareVersionv12Label         matlab.ui.control.Label
@@ -123,16 +124,16 @@ classdef experiment_mission_planner < matlab.apps.AppBase
         end
         
         % Create orbital platform object from .tle file
-        function sat = SatFromTle(app,sc)
+        function sat = satFromTle(app,sc)
 
             try 
-                %Create satellite object
+                % Create satellite object
                 sat = satellite(sc,app.tleFile);
                 assignin('base','sat',sat)
 
-                %Create if there is only one satellite in the file (not a constellation)
+                % Create if there is only one satellite in the file (not a constellation)
                 if size(sat,2) ~= 1
-                    disp(strcat('Error: File "',app.tleInfo.Value ,'" includes a satellite constellation. Program works with an GsFromXlsxunique satellite')); 
+                    disp(strcat('Error: File "',app.tleInfo.Value ,'" includes a satellite constellation. Program works with an unique satellite')); 
                     error("More than one satellite included in .tle file")
                 end
                 
@@ -145,7 +146,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
         end
     
         % Create ground segment objects from .xlsx file
-        function gs = GsFromXlsx(app,sc)
+        function gs = gsFromXlsx(app,sc)
            
             % Read gs .xlsx file content
             try
@@ -502,13 +503,13 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             sc = createScenario(app);
             
             % Create orbital platform data from selected .tle file
-            sat = SatFromTle(app,sc);
+            sat = satFromTle(app,sc);
             
             % Add RF satellite experiment equipment
             [satRFEquipment, ~] = addSatRFEquipment(app,sat);
             
             % Create ground stations data from selected .xlsx file 
-            app.gs = GsFromXlsx(app, sc);
+            app.gs = sFromXlsx(app, sc);
             
             % Add RF ground stations equipment
             [gsRFEquipment, ~] = addGsRFEquipment(app,app.gs,sat);
@@ -1369,6 +1370,11 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             app.CompanyThalesAleniaSpaceSpainLabel = uilabel(app.InformationTab);
             app.CompanyThalesAleniaSpaceSpainLabel.Position = [29 191 208 22];
             app.CompanyThalesAleniaSpaceSpainLabel.Text = 'Company: Thales Alenia Space Spain';
+
+            % Create LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel
+            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel = uilabel(app.InformationTab);
+            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel.Position = [29 126 406 22];
+            app.LicenseThalesAleniaSpaceEspaaSoftwareLicenseforAcademicUseLabel.Text = 'License: Thales Alenia Space España Software License for Academic Use';
 
             % Create ContextMenu
             app.ContextMenu = uicontextmenu(app.UIFigure);
