@@ -1,0 +1,20 @@
+Licencia de Software para Uso Académico de Thales Alenia Space España
+
+Este documento establece los términos y condiciones para el uso del software desarrollado por César Borao Moratinos para Thales Alenia Space España con fines académicos. El empleado de este software implica la aceptación de los siguientes términos:
+
+1. Uso, modificación y distribución:
+	Se proporciona permiso para utilizar, modificar y distribuir el software siempre y cuando se cumplan con las siguientes condiciones:
+	- Inclusión de una atribución adecuada que mencione a Thales Alenia Space España y al autor original César Borao Moratinos en todas las distribuciones y usos del software.
+	- No utilizar el software o cualquier parte del mismo con fines comerciales.
+	- No comercializar el software, ni sus copias o derivados.
+
+2. Derechos de propiedad:
+Thales Alenia Space España se reserva todos los derechos de propiedad del software y cualquier modificación realizada sobre él. En todas las distribuciones y usos académicos, el software debe ser reconocido como propiedad de Thales Alenia Space España, con atribución al autor original César Borao Moratinos.
+
+3. Uso exclusivamente académico:
+Esta licencia se aplica exclusivamente para uso académico, que incluye fines de investigación, educación y aprendizaje. Queda estrictamente prohibido cualquier otro uso no contemplado en esta licencia.
+
+Fecha de la licencia: 09/07/2023
+
+César Borao Moratinos
+Thales Alenia Space España
