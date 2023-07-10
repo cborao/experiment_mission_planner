@@ -24,10 +24,6 @@ Experiment link type: Uplink
 [T+00:00:00.000] 05-May-2025 07:00:00.000 MISSION START
 
 %%%%%%%%%%%%%%%%%%
-% ORBIT NUMBER 1 %
-%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%
 % ORBIT NUMBER 2 %
 %%%%%%%%%%%%%%%%%%
 
