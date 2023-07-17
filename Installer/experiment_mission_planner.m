@@ -1,4 +1,4 @@
-classdef experiment_mission_planner < matlab.apps.AppBase
+classdef experiment_mission_planner_exported < matlab.apps.AppBase
 
     % Properties that correspond to app components
     properties (Access = public)
@@ -509,7 +509,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
             [satRFEquipment, ~] = addSatRFEquipment(app,sat);
             
             % Create ground stations data from selected .xlsx file 
-            app.gs = sFromXlsx(app, sc);
+            app.gs = gsFromXlsx(app, sc);
             
             % Add RF ground stations equipment
             [gsRFEquipment, ~] = addGsRFEquipment(app,app.gs,sat);
@@ -1396,7 +1396,7 @@ classdef experiment_mission_planner < matlab.apps.AppBase
     methods (Access = public)
 
         % Construct app
-        function app = experiment_mission_planner
+        function app = experiment_mission_planner_exported
 
             % Create UIFigure and components
             createComponents(app)
